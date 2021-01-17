@@ -1,0 +1,216 @@
+/* 
+.app {
+  align-items: center;
+  display: inline-block;
+}
+
+
+.navigation_app {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 40px;
+  align-items: center;
+}
+
+.body_app {
+  height: 500px;
+  width: 100%;
+  background: rgb(29, 91, 220);
+  background: linear-gradient(
+    250deg,
+    rgba(29, 91, 220, 1) 0%,
+    rgba(23, 37, 230, 1) 50%,
+    rgba(29, 91, 220, 1) 100%
+  );
+  position: relative;
+}
+.descripton_app > h1 {
+  color: whitesmoke;
+  padding: 15px 0;
+}
+
+.title_app {
+  margin: 20px;
+}
+
+.description {
+  color: whitesmoke;
+
+  width: 70%;
+  margin: auto;
+}
+
+.content {
+  border-radius: 20px;
+  top: 380px;
+  left: 25%;
+  right: 25%;
+  bottom: 0;
+
+  height: 140%;
+  background-color: rgb(231, 216, 216);
+  position: absolute;
+}
+
+.blank {
+  height: 79.94736842105263vh;
+}
+.icon_app {
+  border: 2px solid rgba(41, 53, 222, 1);
+  border-radius: 4px;
+  width: 80px;
+  padding: 12px;
+  margin-top: 18px;
+  color: rgba(41, 53, 222, 1);
+}
+
+h3,
+h1 {
+  color: blue;
+  margin-top: 30px;
+}
+.content h4 {
+  color: black;
+  line-height: 130%;
+  padding: 0 10px;
+}
+p {
+  color: black;
+  line-height: 100%;
+  padding: 0 10px;
+}
+
+@media (min-width: 1281px) {
+  .content {
+    height: 600px;
+    margin-top: 50px;
+  }
+  .descripton_app {
+    padding-top: 8%;
+  }
+  .blank {
+    height: 210px;
+  }
+  .content > h1 {
+    color: red;
+  }
+}
+
+*/
+.navigation_app {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 40px;
+  align-items: center;
+}
+.icon_app {
+  color: rgba(23, 37, 230, 1);
+}
+.imagetext_app {
+  margin: 40px;
+}
+.profileImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  align-items: center;
+  object-fit: cover;
+  object-position: 35% 35%;
+}
+h1,
+h2,
+h3 {
+  color: rgba(23, 37, 230, 1);
+}
+.imagetext_app > h1 {
+  margin-bottom: 20px;
+}
+
+.descripton_app {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background: rgb(29, 91, 220);
+  background: linear-gradient(
+    250deg,
+    rgba(29, 91, 220, 1) 0%,
+    rgba(23, 37, 230, 1) 50%,
+    rgba(29, 91, 220, 1) 100%
+  );
+}
+
+.descripton_app > h2 {
+  color: white;
+  margin-top: 5%;
+  padding-top: 10%;
+}
+.descripton_app > h4 {
+  padding-top: 3%;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+.body_app {
+  position: relative;
+}
+
+.icon_app {
+  border: 2px solid rgba(41, 53, 222, 1);
+  border-radius: 4px;
+  width: 80px;
+  padding: 12px;
+  margin-top: 18px;
+  color: rgba(41, 53, 222, 1);
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+
+  border-radius: 10px;
+  width: 80%;
+
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 370px;
+  z-index: 1;
+  background-color: rgb(255, 248, 236);
+}
+.content1 {
+  width: 50%;
+  margin: 0 auto;
+}
+.content2 {
+  margin: 0 auto;
+}
+.content2 > p {
+  letter-spacing: 0.2rem;
+}
+.content2 > h2 {
+  padding: 25px 0 10px 0;
+  padding: 35% 0 15%;
+}
+.content1 > h4,
+.content1 > p {
+  letter-spacing: 0.2rem;
+}
+.blank {
+  height: 300px;
+}
+@media (min-width: 320px) {
+  .blank {
+    height: 920px;
+  }
+}
+@media (min-width: 701px) {
+  .blank {
+    height: 340px;
+  }
+}
+@media only screen and (max-device-width: 320px) {
+  .blank {
+    height: 1040px;
+  }
+}
